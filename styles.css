@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.titulo-principal {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #34495e;
+    font-size: 1.8em;
+}
+
+#descripcion {
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.imagen-perfil {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.lista-gustos {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    list-style-type: square;
+}
+
+.lista-gustos li {
+    margin: 10px 0;
+}
+
+#tareas-pendientes {
+    background-color: #bdc3c7;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    list-style-type: decimal;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #95a5a6;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #16a085;
+    color: white;
+}
+
+fieldset {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    width: 90%;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
